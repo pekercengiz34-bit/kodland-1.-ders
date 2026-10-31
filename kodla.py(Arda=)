@@ -1,0 +1,30 @@
+print(" TDK YA HOŞGELDİN!")
+print("İngilizce  bağzı kelimelerin anlamlarını öğrenebilirsin.")
+print("Lütfen kelimeleri BÜYÜK HARFLERLE yaz.")
+
+meme_dict = {
+    "LOL": "Komik bir şeye verilen cevap",
+    "CRINGE": "Garip ya da utandırıcı bir şey",
+    "ROFL": "Bir şakaya karşılık verilen cevap",
+    "SHEESH": "Onaylamamak veya şaşırmak",
+    "CREEPY": "Korkunç veya ürkütücü",
+    "AGGRO": "Agresifleşmek veya sinirlenmek",
+    "BRUH": "Şaşkınlık veya hayal kırıklığı",
+    "GOAT": "Tüm zamanların en iyisi(RONALDO",
+    "SLAY": "Harika görünmek veya başarılı olmak",
+    "NOOB": "Acemi veya yeni başlayan kişi"
+}
+
+for i in range(5):
+    word = input("Anlamını öğrenmek istediğin kelimeyi yaz: ")
+
+    if word in meme_dict:
+        print("Anlamı:", meme_dict[word])
+    else:
+        print("Bu kelime sözlüğümüzde bulunmuyor.")
+
+
+
+    print("--------------------------")
+
+print("TDK YI kullandığın için teşekkürler HAYIRLI GÜNLER DİLERİZ!")
