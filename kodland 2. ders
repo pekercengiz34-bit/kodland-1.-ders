@@ -1,0 +1,17 @@
+import random
+
+#  Kullanılabilecek karakterler
+karakterler ="qwertyuıopğüasdfghjklşizxcvbnmöç!'^+_><,."
+
+# . Kullanıcıdan parola uzunluğunu?
+uzunluk = 7
+
+#  Rastgele karakter seçerek parolayı oluştur
+for i in range(uzunluk):
+    parola += random.choice(karakterler)
+
+#  Parolayı ekrana yazdır
+print("Oluşturulan parola:", parola) 
+
+print("GÖRÜŞÜRÜZ!")
+print("yapan arda peker ")
